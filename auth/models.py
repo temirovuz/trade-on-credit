@@ -7,6 +7,7 @@ from core.ults import verify_password
 
 
 class Shop(Base):
+    __tablename__ = 'shop'
     id = Column(Integer, primary_key=True)
     shop_name = Column(String(120))
     phone_number = Column(String(13), primary_key=True)
