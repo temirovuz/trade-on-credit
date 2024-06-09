@@ -12,3 +12,5 @@ class Customer(Base):
     price = Column(Integer)
 
 # ---------------------------------->   create      <--------------------------------- #
+def create_customer(shop_id, name, number, price):
+    customer = Customer()
